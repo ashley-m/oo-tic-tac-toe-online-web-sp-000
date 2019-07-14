@@ -98,16 +98,28 @@ class TicTacToe
 
   def play
     display_board
+<<<<<<< HEAD
     while (!over?)
       turn
       if won?||draw?
+=======
+    while (true)
+      turn
+      if over?
+>>>>>>> f725b34f6e5671839dd2f02e93b3504f26f33e01
         break
       end
     end
     if won?
+<<<<<<< HEAD
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
+=======
+      puts "Congratulations #{winner}"
+    elsif draw?
+      puts "Cats Game!"
+>>>>>>> f725b34f6e5671839dd2f02e93b3504f26f33e01
     end
   end
 
